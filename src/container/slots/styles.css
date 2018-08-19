@@ -1,0 +1,61 @@
+.slot {
+  width: calc(100% - 20px);
+  text-align: center;
+  border-radius: 5px;
+  background: rgba(0, 200, 200, 0.5);
+  border: 0;
+  padding: 10px;
+  margin-top: 3px;
+  color: white;
+  user-select: none;
+  -moz-user-select: none;
+  position: relative;
+}
+
+.slot > .cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  background: red;
+  background: rgba(255, 0, 0, 0.7);
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.slot > .cross:hover {
+  background: red;
+}
+
+.slot > .content {
+  display: none;
+}
+
+.slot ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  background: rgb(128, 255, 128);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.slot ul > li {
+  border-radius: 5px;
+}
+
+.slot ul > li:hover {
+  background: rgb(64, 128, 64);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.slot-collapsible {
+  cursor: pointer;
+}
+.slot-opened > .content {
+  display: block;
+}

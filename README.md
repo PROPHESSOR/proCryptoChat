@@ -1,2 +1,0 @@
-# proCryptoChat
-Created with CodeSandbox

@@ -1,0 +1,29 @@
+.container {
+  background: red;
+  background: rgba(0, 150, 0, 0.5);
+  width: 50vw;
+  margin: auto;
+  margin-top: 10vh;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+textarea {
+  width: calc(100% - 12px);
+  border-radius: 5px;
+  background: rgba(0, 32, 0, 0.5);
+  border: 1px solid #00aaaa;
+  color: white;
+  padding: 5px;
+}
+
+button {
+  width: 100%;
+  border-radius: 5px;
+  background: rgba(0, 200, 200, 0.5);
+  border: 0;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 3px;
+  color: white;
+}
